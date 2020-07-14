@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/site.webmanifest" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <title>Maneesh Withanagamage</title>
+  </head>
+
+  <body class="container full-height-contrainer">
+    <div id="home">
+      <header class="main-header">
+        <a href="#home" class="logo">
+          <img src="images/logo_transparent.png" class="img-logo" />
+          <div class="main-header-name">Maneesh Withanagamage</div>
+        </a>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#about">introduction</a></li>
+            <li><a href="#projects">work samples</a></li>
+            <li><a href="#contacts">contact</a></li>
+          </ul>
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </nav>
+      </header>
+    </div>
+
+    <div class="home-container">
+      <section class="main-intro">
+        <div class="intro-box">
+          <h2 class="intro-text">Hi, my name is</h2>
+          <span class="intro-name">Maneesh Withanagamage.</span>
+          <h2 class="intro-text">I'm a Computer Engineering Student</h2>
+        </div>
+        <section id="section05" class="demo">
+          <a href="#about"><span></span>find out more</a>
+        </section>
+      </section>
+    </div>
+
+    <div id="about">
+      <section id="about-me-scroll" class="about-me">
+        <div class="about-image">
+          <div class="me-image"><img src="images/personal_pic.png" /></div>
+        </div>
+        <div id="about-box-id" class="about-box">
+          <div class="about-title">
+            <h1>experience</h1>
+            <div class="about-text">
+              <p>
+                I will be going into my last year of Computer Engineering at
+                York University. The reason I love this program is because it’s
+                a combination of both electrical engineering and software
+                engineering. I have always been passionate about learning
+                robotics and I realized that Computer Engineering is the stream
+                that has most integration with robotics and will allow me to
+                gain the necessary knowledge to achieve my future goals.<br /><br />
+                For the past two years I have been fortunate enough to land two
+                co-op positions. One at CIBC as an IT-Project Coordinate and the
+                other at 4PAY as a Technical Analyst. These two positions
+                allowed me to gain valuable industry experience which will help
+                me immensely in my future career. The working environment was
+                quite different between CIBC and 4PAY because CIBC was a rather
+                large financial corporation, while 4PAY a small fintrec company.
+                This played a big role in the amount of experience I gained and
+                the learning I did. 4PAY had a higher rewarding experience for
+                me because of the small team structure they had. This let do a
+                great closely-knit community. Unlike my placement at CIBC, I was
+                able to engage with my co-workers and learn from them a lot
+                more. CIBC, being a large financial institution, had its
+                downside of having a complex working environment.<br /><br />
+                My future career goal would be to take my skills I learned as a
+                Project Coordinator and a Technical Analyst and apply it secure
+                a position as a Project Manager for a software or embedded
+                development company. The experience I’ve gained during my co-op
+                placement is invaluable as it directly correlates to my career
+                goals in the future.
+              </p>
+              <div class="resume">
+                <a
+                  class="button"
+                  href="docs/Maneesh Withanagamage 2020 Resume.pdf"
+                  >Resume</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div id="projects">
+      <main>
+        <h1 id="project-main-title">Work Samples</h1>
+
+        <article>
+          <div class="project-image">
+            <img
+              src="images/log_file_sctructure.png"
+              class="p-image project-1-image"
+              alt="Article Photo"
+            />
+          </div>
+          <div class="project-data">
+            <h2 class="project-title">Task Automation</h2>
+            <p class="project-desc">
+              Several Scripts to Automate Tasks.<br />
+              One of my first few tasks at 4PAY was to create a script to
+              automate some tasks which allowed me to analyse and document the
+              applications they possessed. Since I was free to use any language
+              to write the scripts, I tired writing some of the smaller scripts
+              using JavaScript and the main scripts were written in Bash. The
+              first Script I created was written in JavaScript and it was
+              responsible of logging all the API calls on a product that 4PAY
+              uses. Due to confidentiality, I am unable to show the code,
+              however, the structure of the log file can be shown.
+            </p>
+            <div class="source-code">
+              <a class="button" href="images/log_file_sctructure.png"
+                >view image</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <article>
+          <div class="project-image">
+            <img
+              src="images/blockchain.png"
+              class="p-image project-3-image"
+              alt="Article Photo"
+            />
+          </div>
+          <div class="project-data">
+            <h2 class="project-title">BlockChain: Proof of Concept</h2>
+            <p class="project-desc">
+              A conceptual BlockChain for Accounting <br />
+              BlockChain was a topic that was always interested in and I
+              mentioned it my manager. This gave me the opportunity to present a
+              proof of concept to the team on how BlockChain can be implemented
+              for the maintaining a secure history of the accounts used at 4PAY.
+              I was able to use my knowledge of crypto currency and distributed
+              ledgers to create a conceptual blockchain that can hold the
+              necessary account information for the team securely. The Image
+              shown is when I was testing dummy data to present to the team.
+            </p>
+            <div class="source-code">
+              <a class="button" href="images/blockchain.png">view image</a>
+            </div>
+          </div>
+        </article>
+
+        <article>
+          <div class="project-image">
+            <img
+              src="images/systemdoc.png"
+              class="p-image project-2-image"
+              alt="Article Photo"
+            />
+          </div>
+          <div class="project-data">
+            <h2 class="project-title">System Documentation</h2>
+            <p class="project-desc">
+              Auto Generated System Documentation for Apps. <br />
+              As Engineering students we’re all familiar with System
+              Documentation and Design. We’ve done multiple assignments and
+              projects related to system documentation and design in our
+              courses, so I was rather comfortable creating them for 4Pay
+              applications. The image shown displays a simple diagram that was
+              automatically created using a script to document a test app. The
+              information had to be censored due to confidential data.
+            </p>
+            <div class="source-code">
+              <a class="button" href="images/systemdoc.png">view image</a>
+            </div>
+          </div>
+        </article>
+      </main>
+    </div>
+
+    <div id="contacts">
+      <h1 class="contact-title">contact</h1>
+      <div class="contact-links">
+        <a href="mailto:wmaneesh@outlook.com">Email</a>
+        <a href="tel:416-841-8915" id="number">416-841-8915</a>
+        <a href="https://www.linkedin.com/in/wmaneesh/">LinkedIn</a>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
